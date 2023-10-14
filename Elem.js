@@ -10,6 +10,9 @@ class Elem {
     this.pElem = this.divElem.children("p")
     console.log(this.divElem)
     console.log(this.pElem)
+    this.divElem.on("click",()=>{
+        this.pElem.html("X")
+    })
   }
 
   htmlOsszeallit() {
