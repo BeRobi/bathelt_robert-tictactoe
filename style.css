@@ -1,5 +1,16 @@
 .elem {
-    width:100px;
-    height: 100px;
-    border: 1px solid black;
+  text-align: center;
+  font-size: 50px;
+  border: 1px solid black;
+  padding: auto;
+}
+
+.elem p {
+  margin-top: 20px;
+}
+
+.jatekter {
+  display: grid;
+  grid-template-columns: 101px 101px 101px;
+  grid-template-rows: 101px 101px 101px;
 }

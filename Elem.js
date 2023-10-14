@@ -10,7 +10,7 @@ class Elem {
     this.szuloElem = szuloElem;
     this.htmlOsszeallit(); // a this - konkrét osztálypéldányra mutat
     // megfogjuk a html elemekhez
-    this.divElem = this.szuloElem.children("div");
+    this.divElem = this.szuloElem.children("div:last-child");
     this.pElem = this.divElem.children("p");
     console.log(this.divElem);
     console.log(this.pElem);
